@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+    background-image: url(./../img/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+/* HERO */
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: c;
+}
+
+.hero-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.hero-descr {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
