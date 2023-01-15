@@ -729,6 +729,8 @@ body {
 
 .footer-gmail {
     margin-left: 208px;
+    margin-bottom: 60px;
+    
 }
 
 .footer-gmail h2 {
@@ -823,4 +825,32 @@ body {
 
 .footer-gmail-linkedin:hover {
     background-color: #FFD723;
+}
+
+/* FOOTER ENDING */
+
+.footer-ending {
+    margin-top: 85px;
+    border-top: #5D6544 1px solid;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.footer-ending-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-ending-menu p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B5C096;
+}
+
+.footer-ending-text {
+    margin-left: 8px;
+    padding-bottom: 5px;
 }
